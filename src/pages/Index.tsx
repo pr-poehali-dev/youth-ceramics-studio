@@ -277,6 +277,31 @@ const Index = () => {
               </div>
             </CardContent>
           </Card>
+
+          <Card className="mt-8 overflow-hidden border-2">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <Icon name="Map" size={24} className="text-primary" />
+                Как нас найти
+              </CardTitle>
+              <CardDescription>
+                Мы находимся в самом центре творческого района
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="p-0">
+              <div className="w-full h-[400px] bg-muted relative">
+                <iframe
+                  src="https://yandex.ru/map-widget/v1/?ll=37.617644,55.755826&z=16&l=map&pt=37.617644,55.755826,pm2rdm"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  allowFullScreen
+                  className="border-0"
+                  title="Карта расположения студии"
+                ></iframe>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </section>
 
