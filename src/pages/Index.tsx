@@ -69,7 +69,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-border">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-primary">Керамическая студия</h1>
+          <h1 className="text-2xl font-bold text-primary">Ваzа</h1>
           <div className="hidden md:flex gap-6">
             {['home', 'classes', 'gallery', 'about', 'contacts'].map((section) => (
               <button
@@ -307,7 +307,7 @@ const Index = () => {
 
       <footer className="bg-secondary text-white py-8 px-4">
         <div className="container mx-auto text-center">
-          <p className="text-white/80">© 2024 Керамическая студия. Создаем искусство вместе</p>
+          <p className="text-white/80">© 2024 Студия Ваzа. Создаем искусство вместе</p>
         </div>
       </footer>
     </div>
